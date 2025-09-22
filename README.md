@@ -1,3 +1,22 @@
-# Real-Time-Weather-Application
-
-This Weather Forecasting Web Application is a lightweight, browser-based tool designed to provide users with accurate and up-to-date weather information for any city in the world. Built using core web technologies—HTML, CSS, and JavaScript—the application integrates with the OpenWeatherMap API to fetch real-time weather data, including temperature, humidity, wind speed, and general weather conditions. Users can input a city name to retrieve current weather details, along with a multi-day forecast that includes high/low temperatures and weather icons for better visualization. The application features a responsive and mobile-friendly interface, ensuring usability across a range of devices. JavaScript is used to handle API requests, parse JSON data, and dynamically update the DOM based on user interaction, while CSS provides a clean, intuitive layout with support for transitions and responsive grids. The project demonstrates fundamental frontend development skills such as event handling, API integration, asynchronous programming (via fetch), and conditional rendering. It also lays a foundation for implementing advanced features like unit conversion (Celsius/Fahrenheit), geolocation-based weather retrieval, and dark/light theme toggling. Ideal for learning how real-time APIs work in web applications, this project serves both as a hands-on development exercise and a useful utility tool. It can be easily extended or deployed using platforms like GitHub Pages or Netlify. Future enhancements may include hourly forecasts, severe weather alerts, offline caching, or integration with machine learning models for prediction accuracy. With a focus on usability, performance, and scalability, this project exemplifies the practical application of web technologies in building real-world, data-driven applications. All code is organized into modular files, including index.html for structure, style.css for design, and script.js for logic. API keys are stored securely (with suggestions for .env usage in production), and the code follows best practices for readability and maintainability. This project not only fulfills academic requirements but also provides a strong starting point for developers exploring frontend integration with public APIs.
+<h2>MET Report: A Modern Weather Application</h2>
+<br>
+<p>MET Report is a clean, fast, and user-friendly weather application that provides real-time and forecasted weather data. This project was built to demonstrate a responsive UI and an efficient API-based data retrieval system. A key feature is the integrated voice assistant, which allows for hands-free searching and information retrieval.</p>
+<br>
+<h3> Features</h3>
+<b>Fast API Integration:</b> Utilizes a weather API ( OpenWeatherMa) to fetch up-to-the-minute weather data for any city. The application is designed for quick and efficient data calls.
+<br>
+<b>Intuitive UI/UX</b>: The user interface is built with a modern, card-based design that's easy to read and navigate. The layout displays key information like temperature, humidity, and wind speed in a clear, organized manner.
+<br>
+<b>Voice Assistant</b>: The "Tap to listen" feature allows users to search for cities and get weather reports using voice commands, enhancing accessibility and ease of use.
+<br>
+<b>Detailed Forecast</b>: Provides a comprehensive 7-day forecast, including daily temperature highs and lows, weather conditions  and a visual trend indicator.
+<br>
+<b>Autocomplete Search</b>: The search bar includes an active, real-time autocomplete feature that suggests city names as you type, making it faster to find a location.
+<br>
+<h3>Technologies Used</h3>
+<br>
+<b>Frontend:</b> HTML, CSS, JavaScript
+<br>
+<b>API</b>: OpenWeatherMap API (or a similar weather data provider)
+<br>
+<b>Voice Recognition</b>: A voice-to-text API (e.g., a native browser API or a service like Google Text-to-Speech) for the voice assistant functionality.
